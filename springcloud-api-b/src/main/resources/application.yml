@@ -1,0 +1,9 @@
+server:
+  port: 8002
+spring:
+    application:
+        name: springcloud-api-b
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8100/eureka

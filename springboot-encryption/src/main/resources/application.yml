@@ -1,0 +1,21 @@
+spring:
+  mvc:
+    view:
+      # 页面默认前缀目录
+      prefix: /WEB-INF/jsp/
+      # 响应页面默认后缀
+      suffix: .jsp
+  redis:
+    database: 1
+    host: 172.16.49.131
+    port: 6381
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+    timeout: 10000
+domain:
+  name: www.ymdx.com
